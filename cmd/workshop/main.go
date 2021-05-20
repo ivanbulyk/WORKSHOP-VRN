@@ -25,7 +25,7 @@ func main() {
 
 	path := cfg.Host + ":" + cfg.Port
 
-	log.Print("Starting server at %s", path)
+	log.Printf("Starting server at %s", path)
 	err = http.ListenAndServe(path, r)
 	log.Fatal(err)
 
