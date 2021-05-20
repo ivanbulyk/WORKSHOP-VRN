@@ -1,3 +1,26 @@
+# github.com/BurntSushi/toml v0.3.1
+github.com/BurntSushi/toml
+# github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6
+## explicit
+# github.com/coreos/go-etcd v2.0.0+incompatible
+## explicit
 # github.com/go-chi/chi v1.5.4
 ## explicit
 github.com/go-chi/chi
+# github.com/ilyakaznacheev/cleanenv v1.2.5
+## explicit
+github.com/ilyakaznacheev/cleanenv
+# github.com/joho/godotenv v1.3.0
+github.com/joho/godotenv
+# github.com/spf13/viper v1.7.1
+## explicit
+# github.com/ugorji/go/codec v0.0.0-20181204163529-d75b2dcb6bc8
+## explicit
+# github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77
+## explicit
+# gopkg.in/yaml.v2 v2.4.0
+## explicit
+gopkg.in/yaml.v2
+# olympos.io/encoding/edn v0.0.0-20201019073823-d3554ca0b0a3
+## explicit
+olympos.io/encoding/edn
