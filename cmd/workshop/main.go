@@ -6,6 +6,7 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/ilyakaznacheev/cleanenv"
+	"github.com/ivanbulyk/WORKSHOP-VRN/internal/api/jokes"
 	"github.com/ivanbulyk/WORKSHOP-VRN/internal/config"
 	"github.com/ivanbulyk/WORKSHOP-VRN/internal/handler"
 )
@@ -17,7 +18,9 @@ func main() {
 		log.Fatal(err)
 	}
 
-	h := handler.NewHandler()
+	apiClient := jokes.NewJokeClient(cfg.JokeURL)
+
+	h := handler.NewHandler(apiClient)
 
 	r := chi.NewRouter()
 
