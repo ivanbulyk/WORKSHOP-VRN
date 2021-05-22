@@ -32,7 +32,7 @@ jobs:
     needs: 
       - lint
       - test
-#add deploy&&testchecl v.1.0.0
+#add deploy&testchecl v.1.0.0
     steps:
       - uses: actions/checkout@v2
       - name: Login to Heroku Container registry
