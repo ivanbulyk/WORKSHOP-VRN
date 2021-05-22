@@ -9,7 +9,6 @@ import (
 	"github.com/ivanbulyk/WORKSHOP-VRN/internal/api"
 	"github.com/ivanbulyk/WORKSHOP-VRN/internal/api/mocks"
 	"github.com/ivanbulyk/WORKSHOP-VRN/internal/handler"
-	// "github.com/ivanbulyk/WORKSHOP-VRN/internal/handler"
 )
 
 func TestHandler_Hello(t *testing.T) {
