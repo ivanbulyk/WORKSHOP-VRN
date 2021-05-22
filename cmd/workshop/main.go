@@ -25,7 +25,7 @@ func main() {
 
 	apiClient := jokes.NewJokeClient(cfg.JokeURL)
 
-	h := handler.NewHandler(apiClient, cfg.CustomJoke)
+	h := handler.NewHandler(apiClient)
 
 	r := chi.NewRouter()
 
